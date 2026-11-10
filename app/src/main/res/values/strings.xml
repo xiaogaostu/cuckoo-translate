@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cuckoo</string>
+    <string name="floating_ball_notification_title">Cuckoo</string>
+    <string name="floating_ball_notification_text">悬浮翻译运行中，点悬浮球翻译剪贴板内容</string>
+</resources>

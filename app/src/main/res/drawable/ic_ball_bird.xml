@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 悬浮球里的布谷鸟迷你版（v1.6.1，简笔画版）：40dp 白球中间的
+     简笔画小鸟，只用线条勾勒，不填色块、不渐变、不霓虹、不枝条、
+     不气泡。48×48 视口，透明底。共 8 笔：
+     ①身体+头外轮廓 1 笔 ②翅膀 1 笔 ③短尾 1 笔
+     ④肚子横纹 3 笔 ⑤眼睛 1 笔（黄圈+黑点）⑥尖嘴 1 笔。
+     线条深灰 #374151、2dp；眼睛黄圈 #FBBF24 是唯一的颜色点缀。 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- ③ 短尾 1 笔：从身体后下方斜出一小截（先画，压在轮廓下面） -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#374151"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M14,27 Q11,30 8.5,33.5" />
+    <!-- ① 身体+头外轮廓 1 笔：头朝右，身体圆润，一笔画成 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#374151"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M36,19 C35,13 31,10.5 27,11 C25,11.2 24,12.8 22.5,13.8 C18,16 13,19 12,24 C11,28 14,32 19,34 C24,36 31,35 34,31 C36,28 37,24 36,19 Z" />
+    <!-- ② 翅膀 1 笔：身体里一道弧线 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#374151"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M18,23 Q24,20 30,23.5" />
+    <!-- ④ 肚子横纹 3 笔：布谷鸟最关键的识别特征，短横线 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#374151"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M19,27.5 L27,27.5" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#374151"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M20,30 L28,30" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#374151"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M21,32.5 L27,32.5" />
+    <!-- ⑤ 眼睛 1 笔：黄色眼圈 + 黑眼珠 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FBBF24"
+        android:strokeWidth="1.5"
+        android:pathData="M28.8,17 a2.2,2.2 0 1,0 4.4,0 a2.2,2.2 0 1,0 -4.4,0 Z" />
+    <path
+        android:fillColor="#111827"
+        android:pathData="M29.9,17 a1.1,1.1 0 1,0 2.2,0 a1.1,1.1 0 1,0 -2.2,0 Z" />
+    <!-- ⑥ 尖嘴 1 笔：嘴角向外的一折 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#374151"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M36,16 L41,18.5 L36,21" />
+</vector>

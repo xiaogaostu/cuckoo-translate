@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 启动图标背景层：深蓝到紫的对角渐变，直接取自用户上传的图标原图
+     （左上 #0E1E5C -> 中 #341F88 -> 右下 #5A21B5，沿 x+y 方向线性渐变），
+     铺满 108×108dp，不要烤圆角、不要阴影，圆角和遮罩由系统按设备形状裁。
+     前景层是同一张图的抠图位图（透明底），两路同源。 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <gradient
+        android:angle="315"
+        android:startColor="#0E1E5C"
+        android:centerColor="#341F88"
+        android:endColor="#5A21B5"
+        android:type="linear" />
+</shape>
